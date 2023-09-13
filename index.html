@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Cipher Project</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-warning">Cipher</h1>
+        <form id="cipher">
+          <div class="form-group">
+            <label for="Sentence">Sentence</label>
+            <div class="col-sm-6">
+              <input type="text" id="sentence" class="form-control">
+            </div>
+          </div>
+          <button class="btn btn-warning mt-3">Cipher</button>
+        </form>
+        <br>
+        <div class="row outputing">
+          <div class="col-md-6">
+            <button class="btn btn-success" id="original">Show Original Sentence</button>
+            <h1 class="output1"></h1>
+          </div>
+          <div class="col-md-6">
+            <button class="btn btn-danger" id="cipherSentence">Show Ciphered Sentence</button>
+            <h1 class="output"></h1>
+          </div>
+        </div>
+      </div>
+</body>
+
+</html>
